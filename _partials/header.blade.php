@@ -1,18 +1,16 @@
-<nav class="navbar navbar-light navbar-top navbar-expand-md fixed-top">
-    <div class="container">
-        @partial('nav/logo')
-        <button
-            class="navbar-toggler border-0"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMainHeader"
-            aria-controls="navbarMainHeader"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-        ><span class="navbar-toggler-icon"></span></button>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
 
-        <div class="justify-content-end collapse navbar-collapse" id="navbarMainHeader">
-            @partial('nav/main_menu', ['items' => $mainMenu->menuItems()])
-        </div>
+        @partial('nav/logo')
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        @partial('nav/main_menu', ['items' => $mainMenu->menuItems()])
     </div>
 </nav>

@@ -1,0 +1,22 @@
+{
+    "code": "bulma",
+    "parent": null,
+    "name": "Bulma Theme",
+    "description": "Demonstration theme for TastyIgniter front-end based on Tastyigniter Orange, created with <3 and Bulma.",
+    "author": "Creamy Coding",
+    "locked": true,
+    "version": "1.0.0",
+    "tags": {
+        "1.0.0": "Theme initialization"
+    },
+    "require": {
+        "igniter.cart": "*",
+        "igniter.coupons": "*",
+        "igniter.frontend": "*",
+        "igniter.local": "*",
+        "igniter.pages": "*",
+        "igniter.payregister": "*",
+        "igniter.reservation": "*",
+        "igniter.user": "*"
+    }
+}

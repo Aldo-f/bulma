@@ -1,0 +1,14 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import "branding";
+
+// custom
+.navbar-menu a.active {
+    background-color: hsl(0deg, 0%, 98%);
+    color: #FA7C91;
+}
+
+
+
+
+@import "~bulma/bulma";
